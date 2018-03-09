@@ -15,6 +15,7 @@ public class HelloWorldServlet extends HttpServlet {
 
    private static final long serialVersionUID = 1L;
    int i=0;
+   System.out.println("test");
    @Override
    protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
          throws ServletException, IOException {
