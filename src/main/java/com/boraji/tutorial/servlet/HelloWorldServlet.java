@@ -22,5 +22,6 @@ public class HelloWorldServlet extends HttpServlet {
       resp.setContentType("text/plain");
 	  System.out.println("commiting to get conflicts");
       resp.getWriter().write("Hello World! Maven Web Project Example.");
+	  System.out.println("conflicts");
    }
 }
