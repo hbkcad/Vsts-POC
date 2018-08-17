@@ -20,8 +20,8 @@ public class HelloWorldServlet extends HttpServlet {
    protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
          throws ServletException, IOException {
       resp.setContentType("text/plain");
-	  System.out.println("commit conflict");
+	  System.out.println("commiting to get conflicts");
       resp.getWriter().write("Hello World! Maven Web Project Example.");
-	  
+	  System.out.println("conflicts");
    }
 }
