@@ -22,6 +22,6 @@ public class HelloWorldServlet extends HttpServlet {
       resp.setContentType("text/plain");
 	  
       resp.getWriter().write("Hello World! Maven Web Project Example.");
-	  System.out.println("git conflict");
+	  
    }
 }
